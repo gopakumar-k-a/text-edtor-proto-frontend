@@ -1,0 +1,16 @@
+/* src/editor.css */
+.DraftEditor-root .public-DraftStyleDefault-block.align-left {
+    text-align: left;
+  }
+  .DraftEditor-root .public-DraftStyleDefault-block.align-center {
+    text-align: center;
+  }
+  .DraftEditor-root .public-DraftStyleDefault-block.align-right {
+    text-align: right;
+  }
+  /* Debug: Visually distinguish blocks */
+  .DraftEditor-root .public-DraftStyleDefault-block {
+    padding: 2px;
+    margin: 2px 0;
+    border: 1px dashed #ddd; /* Optional: Visual cue for blocks */
+  }
