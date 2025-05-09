@@ -1,0 +1,94 @@
+/* src/editor.css */
+.wrapperClassName {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    overflow: auto;
+  }
+  
+  .editorClassName {
+    min-height: 400px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .toolbarClassName {
+    padding: 5px;
+    background-color: #f4f4f9;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  /* Page size canvas */
+  .page-a4 {
+    width: 210mm; /* A4 width */
+    aspect-ratio: 210 / 297; /* A4 ratio */
+    max-width: 90vw;
+  }
+  
+  .page-letter {
+    width: 8.5in; /* Letter width */
+    aspect-ratio: 8.5 / 11; /* Letter ratio */
+    max-width: 90vw;
+  }
+  
+  .page-legal {
+    width: 8.5in; /* Legal width */
+    aspect-ratio: 8.5 / 14; /* Legal ratio */
+    max-width: 90vw;
+  }
+  
+  /* Alignment styles */
+  .public-DraftStyleDefault-block[data-align="left"] {
+    text-align: left !important;
+  }
+  .public-DraftStyleDefault-block[data-align="center"] {
+    text-align: center !important;
+  }
+  .public-DraftStyleDefault-block[data-align="right"] {
+    text-align: right !important;
+  }
+  
+  /* Debug: Visually distinguish blocks */
+  .public-DraftStyleDefault-block {
+    padding: 2px;
+    margin: 2px 0;
+    border: 1px dashed #ddd;
+  }
+  
+  /* Text preview */
+  .text-preview {
+    height: 80px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+  }
+  
+  /* Export buttons and page selector */
+  .controls {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .controls select, .controls button {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .controls button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .controls button:hover {
+    background-color: #0056b3;
+  }
